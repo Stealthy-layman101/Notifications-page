@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    background-image: radial-gradient(rgb(90, 90, 222),rgb(65, 61, 61));
+}
+
+.head{
+    /* font-family: 'Plus Jakarta Sans', sans-serif; */
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; 
+    justify-content: space-between;
+    font-size: 0.7rem;
+    margin: 1rem;
+}
+
+.three{
+    background-color: hsl(224, 21%, 14%);
+    color: whitesmoke;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 6px;
+}
+
+.first_p{
+    color: rgb(45, 45, 45);
+    font-size: 1rem;
+}
+
+.first_p:hover, .first_tournament:hover, .name:hover, .chess:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+.rizky_p:hover{
+    cursor: pointer;
+    color: black;
+    background-color: rgb(19, 19, 70);
+}
+
+.users{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    background-color: rgb(62, 62, 97);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.user1_col{
+    display: flex;
+    flex-direction: column;
+}
+
+.user_p{
+    margin-left: 0.5rem;
+}
+
+.user1_row{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+}
+
+.circle1{
+    width: 30px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 4.2rem;
+    margin-right: 4rem;
+}
+
+.circle2{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    margin-left: 0.8rem;
+}
+
+.circle3{
+    width: 21px;
+    height: 12px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 1.6rem;
+    margin-right: 1.5rem;
+}
+
+ .mark_img{
+    width: 35%;
+    height: 60%;
+} 
+
+.name{
+    font-weight: bolder;
+}
+
+.grey_p{
+    font-weight: 600;
+    margin-left: 0.2rem;
+    color: rgb(113, 113, 113);
+}
+
+.time1{
+    color: rgb(154, 151, 151);
+    margin-left: 4.5rem;
+    margin-top: -1rem;
+}
+
+.first_tournament{
+    color: hsl(221, 61%, 7%);
+    font-weight: bold;
+}
+
+.angela_img{
+    margin-left: -0.2rem;
+    width: 20%;
+    height: 92%;
+}
+
+.time2{
+    color: rgb(154, 151, 151);
+    margin-left: 4.4rem;
+    margin-top: -2rem;
+}
+
+.Jacob_img{
+    width: 30%;
+    height: 60%;
+}
+
+.time3{
+    color: rgb(154, 151, 151);
+    margin-left: 4.3rem;
+    margin-top: -1.6rem;
+}
+
+.chess{
+    color: rgb(14, 14, 80);
+    font-weight: bolder;
+}
+
+.rizky_img{
+    width: 30%;
+    height: 60%;
+}
+
+.time4{
+    color: rgb(154, 151, 151);
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.rizky_p{
+    border: 1px solid hsl(210, 1%, 62%);
+    padding: 1rem;
+    color: rgb(127, 122, 122);
+}
+
+.Kimberly_img{
+    width: 30%;
+    height: 60%;
+}
+
+.grey_p5{
+    font-weight: 600;
+    color: rgb(113, 113, 113);
+}
+
+.time5{
+    color: rgb(154, 151, 151);
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.Nathan_img{
+    width: 30%;
+    height: 60%;
+}
+
+.time6{
+    color: rgb(154, 151, 151);
+    margin-left: 4rem;
+    margin-top: -0.2rem;
+}
+
+.Anna_img{
+    width: 20%;
+    height: 80%;
+}
+
+.time7{
+    color: rgb(154, 151, 151);
+    margin-left: 4rem;
+    margin-top: -1rem;
+}
+
+@media screen and (min-width: 1440px) {
+    body{
+        margin: 5rem;
+        background-image: radial-gradient(blue,grey);
+    }
+
+    .users{
+        background-color: rgb(31, 31, 74);
+    }
+
+    .mark_img{
+        margin-left: -0.3rem;
+        width: 10%;
+        height: 80%;
+    }     
+
+    .time1{
+        margin-top: -2.8rem;
+        margin-left: 5rem;
+    }
+
+    .time2{
+        margin-left: 4.7rem;
+    }
+
+    .circle1{
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        border-radius: 10px;
+        margin-left: 1.5rem;
+        margin-top: -0.0rem;
+        margin-top: 0.4rem;
+    }
+
+    .circle2{
+        margin-left: 1rem;
+        margin-top: -0.0rem;
+        margin-top: 0.4rem;
+    }
+
+    .circle3{
+        width: 10px;
+        height: 10px;
+        background-color: red;
+        border-radius: 10px;
+        margin-left: 1.5rem;
+        margin-top: -0.0rem;
+        margin-top: 0.4rem;
+    }
+
+
+    .Jacob_img{
+        width: 12%;
+        height: 80%;
+    }
+
+    .rizky_img{
+        width: 5.6%;
+        height: 72%;
+    }
+
+    .rizky_p{
+        margin-left: 5rem;
+    }
+
+    .time3{
+        margin-left: 5rem;
+        margin-top: -2.3rem;
+    }
+
+    .Kimberly_img{
+        width: 10%;
+        height: 80%;
+    }
+
+    .Kimberly_img2{
+        margin-left: 5rem;
+    }
+
+    .Nathan_img{
+        width: 8%;
+        height: 80%;
+    }
+
+    .time6{
+         margin-left: 4.9rem;
+         margin-top: -2.3rem;
+    }
+
+    .Anna_img{
+        width: 17%;
+        height: 80%;
+    }
+
+    .time7{
+        margin-left: 4.5rem;
+        margin-top: -2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (min-height: 1024px) {
+    body{
+        margin: 1rem;
+        background-image: radial-gradient(blueviolet,purple);
+    }
+
+    .mark_img{
+        width: 10%;
+        height: 70%;
+    }     
+
+    .time1{
+        margin-left: 5rem;
+        margin-top: -1.5rem;
+    }
+
+    .angela_img{
+        margin-top: -0.5rem;
+    }
+
+    .circle1{
+        width: 10px;
+        margin-top: -0rem;
+        margin-top: 0.3rem;
+        margin-left: -0.3rem;
+    }
+
+    .circle2{
+        margin-top: -0rem;
+        margin-top: 0.4rem;
+    }
+
+    .circle3{
+        width: 11.5px;
+        height: 9.5px;
+        margin-top: -0rem;
+        margin-top: 0.3rem;
+        margin-left: 0.5rem;
+    }
+
+    .time2{
+        margin-top: -2rem;
+        margin-left: 4.7rem;
+    }
+
+    .time3{
+        margin-left: 4.9rem;
+        margin-top: -2.5rem;
+    }
+
+    .Jacob_img{
+        width: 12%;
+        height: 75%;
+    }
+
+    .rizky_img{
+        width: 10%;
+        height: 70%;
+    }
+
+    .Kimberly_img{
+        width: 12%;
+        height: 70%;
+    }
+
+    .Nathan_img{
+        width: 10%;
+        height: 69%;
+    }
+
+    .time6{
+        margin-left: 4.4rem;
+        margin-top: -1.7rem;
+    }
+
+    .time7{
+        margin-left: 4.6rem;
+        margin-top: -2.3rem;
+    }
+
+    .Anna_img{
+        width: 16%;
+        height: 69%;
+    }
+
+    .user_p{
+        
+    }
+}
